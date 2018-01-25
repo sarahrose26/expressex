@@ -7,10 +7,10 @@ var data = fs.readFileSync('words.json');
 //this line parses the raw data to make it readable and interprets it as a JavaScript object
 //the console should retrieve the JSON object
 var words = JSON.parse(data);
-console.log(words);
+//console.log(words);
 
 //just ensure your script is set up correctly
-console.log("server is starting");
+//console.log("server is starting");
 
 //imports express package, which is actually a function
 var express = require('express');
@@ -19,11 +19,11 @@ var express = require('express');
 var app = express();
 
 //open a listening port and create a callback function here to get information back in the terminal and verify it's working.
-var server = app.listen(3000, listening);
-
-function listening(){
-    console.log("listening")
-}
+//var server = app.listen(3000, listening);
+//
+//function listening(){
+//    console.log("listening")
+//}
 
 //use express to host static files. Public is a variable here, which looks for a folder with that name.
 app.use(express.static('public'));
