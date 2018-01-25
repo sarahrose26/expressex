@@ -29,7 +29,7 @@ var app = express();
 app.use(express.static('public'));
 
 
-//persisting data
+
 //if the user adds a word and a score, it goes into the databse
 
 
