@@ -15,7 +15,7 @@ var words = JSON.parse(data);
 //imports express package, which is actually a function
 var express = require('express');
 
-//making an expres app
+//making an express app
 var app = express();
 
 //open a listening port and create a callback function here to get information back in the terminal and verify it's working.
